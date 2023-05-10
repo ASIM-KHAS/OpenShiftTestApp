@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.3</version>
+	</parent>
+	<groupId>com.alfaris.va</groupId>
+	<artifactId>VA2</artifactId>
+	<version>V-1.0</version>
+	<packaging>pom</packaging>
+	<name>VA2-Services</name>
+	<modules>
+		<module>va2-auth-service</module>
+		<module>va2-client-inquiry-service</module>
+		<module>va2-cobo-service</module>
+		<module>va2-commission-service</module>
+		<module>va2-config-server</module>
+		<module>va2-escrow-service</module>
+		<module>va2-gateway-service</module>
+		<module>va2-liquidity-management-service</module>
+		<module>va2-pobo-service</module>
+		<module>va2-registry-service</module>
+		<module>va2-security-service</module>
+		<module>va2-template-service</module>
+		<module>va2-signature-service</module>
+		<module>va2-task-service</module>
+		<module>va2-push-notification-service</module>
+		<module>va2-notification-service</module>
+		<module>va2-general-escrow-service</module>
+	</modules>
+</project>
